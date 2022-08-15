@@ -1,6 +1,6 @@
 
 
-cuento=["""Había una vez tres cerditos que vivían al aire libre cerca del bosque. A menudo se sentían inquietos porque por allí solía pasar un lobo malvado y peligroso que amenazaba con comérselos.
+cuento="""Había una vez tres cerditos que vivían al aire libre cerca del bosque. A menudo se sentían inquietos porque por allí solía pasar un lobo malvado y peligroso que amenazaba con comérselos.
 Un día se pusieron de acuerdo en que lo más prudente era que cada uno construyera una casa para estar más protegidos.
 El cerdito más pequeño, que era muy vago, decidió que su casa sería de paja. Durante unas horas se dedicó a apilar cañitas secas y en un santiamén, construyó su nuevo hogar. Satisfecho, se fue a jugar.
 ¡Ya no le temo al lobo feroz!  le dijo a sus hermanos.
@@ -22,13 +22,21 @@ Sopló tan fuerte que la estructura de madera empezó a moverse y al final todos
 Tranquilos, chicos, aquí estaréis bien. El lobo no podrá destrozar mi casa.
 El temible lobo llegó y por más que sopló, no pudo mover ni un solo ladrillo de las paredes. ¡Era una casa muy resistente! Aun así, no se dio por vencido y buscó un hueco por el que poder entrar.En la parte trasera de la casa había un árbol centenario. El lobo subió por él y de un salto, se plantó en el tejado y de ahí brincó hasta la chimenea. Se deslizó por ella para entrar en la casa pero cayó sobre una enorme olla de caldo que se estaba calentado al fuego. La quemadura fue tan grande que pegó un aullido desgarrador y salió disparado de nuevo al tejado. Con el culo enrojecido, huyó para nunca más volver.
 ¿Veis lo que ha sucedido? regañó el cerdito mayor a sus hermanos ¡Os habéis salvado por los pelos de caer en las garras del lobo! Eso os pasa por vagos e inconscientes. Hay que pensar las cosas antes de hacerlas. Primero está la obligación y luego la diversión. Espero que hayáis aprendido la lección.
-¡Y desde luego que lo hicieron! A partir de ese día se volvieron más responsables, construyeron una casa de ladrillo y cemento como la de su sabio hermano mayor y vivieron felices y tranquilos para siempre."""]
+¡Y desde luego que lo hicieron! A partir de ese día se volvieron más responsables, construyeron una casa de ladrillo y cemento como la de su sabio hermano mayor y vivieron felices y tranquilos para siempre."""
 
-cuento.remove(",")
-print(cuento)
+#cuento.remove(",")
+#print(cuento)
 
 #palabras=cuento.split()
 #print(palabras)
+ 
 
-#for palabra in palabras:
-#    print(palabra)
+for caracter in cuento:
+    print(caracter)
+    x=caracter.isalpha()
+    print(x)
+
+    #Si es alpha y no es alpha pero es espacio entonces agregar a otra variable
+    #(isalpha and (false and == " "))
+    #(true and (caracter == false AND caracter==" "))
+    
