@@ -32,11 +32,13 @@ El temible lobo llegó y por más que sopló, no pudo mover ni un solo ladrillo 
  
 
 for caracter in cuento:
-    print(caracter)
-    x=caracter.isalpha()
-    print(x)
+    #print(caracter)
+    #x=caracter.isalpha()
+    #SI ESTÁ DENTRO DEL ALFABETO O ES UN ESPACIO EN BLANCO ENTONCES AGREGAR
+    if (caracter.isalpha() or caracter.isspace()):
+        print(caracter)
+        #AGREGAR A UN NUEVO STRING
 
-    #Si es alpha y no es alpha pero es espacio entonces agregar a otra variable
-    #(isalpha and (false and == " "))
-    #(true and (caracter == false AND caracter==" "))
+        #Ingresen acá su código --PALABRA CLAVE: CONCATENAR--
+    #print(x)
     
